@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 12px  "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    background: linear-gradient(to bottom, #dbb8a6 30%, #ceb49b 70%);
+}
+
+header{
+	margin: 10px;
+	padding: px;
+}
+
+a:link, a:active, a:visited{
+	color: black;
+}
+
+nav ul li a:hover{
+	color: #FFF;
+}
+
+nav ul{
+	list-style: none;
+	margin: 20px ;
+	float: right;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	margin-right: 25px;
+	padding-top: 3px;
+	text-transform: uppercase;
+}
+
+.logo{
+	text-indent: 50px;
+	float: left;
+}
+
+#menu{
+	line-height: 15px;
+	margin-top: 15px;
+}
+
+#postagens{
+	clear: both;
+    text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 15px;    	
+}
+
+.conteudo {
+	padding: 5px;
+    padding-bottom: 12px;
+}
+
+.principal {
+	margin: 50px;
+	padding: 150px;
+}
+
+.rodape{
+	margin: 10px;
+}
+
+footer{
+    margin: 5px 15px;
+    float: right;
+}
+
+#contato{
+	margin: 50px;
+	padding: 100px;
+}
+
+#mapa{
+	text-align: center;
+}
+
+/*Efeito parallax*/
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8 {
+	position: relative;
+	height: 100%;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.caixa1 {
+	background-image: url(img/img_1.jpg);
+}
+.caixa2 {
+	background-image: url(img/img_2.png);
+}
+.caixa3 {
+	background-image: url(img/img_3.jpg);
+}
+.caixa4 {
+	background-image: url(img/img_4.jpg);
+}
+.caixa5 {
+	background-image: url(img/img_5.jpg);
+}
+.caixa6 {
+	background-image: url(img/img_6.jpg);
+}
+.caixa7 {
+	background-image: url(img/img_7.jpg);
+}
+.caixa8 {
+	background-image: url(img/img_8.jpg);
+}
+.conteudo-titulo{
+	position: absolute;
+	left: 0%;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+
+}
+	.conteudo-titulo span.titulo{
+	color: #FFF;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	}
